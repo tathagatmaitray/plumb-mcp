@@ -112,13 +112,13 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.0",
     "openfig-core": "^0.3.7",
-    "ws": "^8.21.0",
+    "ws": "^8.23.0",
     "zod": "^3.25.0"
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.127.0",
     "@types/node": "^20.14.0",
-    "@types/ws": "^8.18.1",
+    "@types/ws": "^8.18.2",
     "@vitest/coverage-v8": "^4.1.11",
     "esbuild": "^0.28.0",
     "eslint": "^9.39.5",
