@@ -13,14 +13,14 @@ const { frontmatter } = useData();
   <Layout v-else>
     <template #nav-bar-content-after>
       <a
-        href="https://github.com/tathagat22/plumb-mcp"
+        href="https://github.com/tathagatmaitray/plumb-mcp"
         target="_blank"
         rel="noopener"
         class="nav-star-btn"
         aria-label="Star plumb-mcp on GitHub"
       >
         <img
-          src="https://img.shields.io/github/stars/tathagat22/plumb-mcp?style=social"
+          src="https://img.shields.io/github/stars/tathagatmaitray/plumb-mcp?style=social"
           alt="GitHub stars"
           height="20"
         />

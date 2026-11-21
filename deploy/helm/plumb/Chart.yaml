@@ -10,10 +10,10 @@ type: application
 version: 0.1.0
 appVersion: "0.13.2"
 
-home: https://tathagat22.github.io/plumb-mcp/
+home: https://tathagatmaitray.github.io/plumb-mcp/
 sources:
-  - https://github.com/tathagat22/plumb-mcp
-icon: https://raw.githubusercontent.com/tathagat22/plumb-mcp/main/figma-plugin/icon.png
+  - https://github.com/tathagatmaitray/plumb-mcp
+icon: https://raw.githubusercontent.com/tathagatmaitray/plumb-mcp/main/figma-plugin/icon.png
 
 keywords:
   - figma
@@ -26,7 +26,7 @@ keywords:
 
 maintainers:
   - name: Tathagat Maitray
-    url: https://github.com/tathagat22
+    url: https://github.com/tathagatmaitray
 
 annotations:
   artifacthub.io/license: MIT

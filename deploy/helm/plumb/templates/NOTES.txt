@@ -52,4 +52,4 @@ you already serve and fail a job when it drifts from its Figma design:
   See deploy/README.md § Continuous design verification.
 {{- end }}
 
-Docs: https://tathagat22.github.io/plumb-mcp/
+Docs: https://tathagatmaitray.github.io/plumb-mcp/

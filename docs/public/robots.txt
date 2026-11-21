@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tathagat22.github.io/plumb-mcp/sitemap.xml
+Sitemap: https://tathagatmaitray.github.io/plumb-mcp/sitemap.xml

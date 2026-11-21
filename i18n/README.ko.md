@@ -7,7 +7,7 @@
 # Plumb (`plumb-mcp`) — AI 네이티브 디자인 엔지니어링 플랫폼
 
 <p align="center">
-  <a href="https://github.com/tathagat22/plumb-mcp"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tathagat22/plumb-mcp?style=social"></a>
+  <a href="https://github.com/tathagatmaitray/plumb-mcp"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tathagatmaitray/plumb-mcp?style=social"></a>
   &nbsp;
   <a href="https://www.npmjs.com/package/plumb-mcp"><img alt="npm version" src="https://img.shields.io/npm/v/plumb-mcp?color=cb3837&logo=npm&logoColor=white"></a>
   &nbsp;
@@ -16,13 +16,13 @@
   <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-<p align="center"><b>⭐ Plumb 가 토큰을 아껴줬거나 — 페이지를 디자인해 줬다면 — 다른 사람들도 찾을 수 있도록 <a href="https://github.com/tathagat22/plumb-mcp">GitHub 에서 스타를 눌러주세요</a>.</b></p>
+<p align="center"><b>⭐ Plumb 가 토큰을 아껴줬거나 — 페이지를 디자인해 줬다면 — 다른 사람들도 찾을 수 있도록 <a href="https://github.com/tathagatmaitray/plumb-mcp">GitHub 에서 스타를 눌러주세요</a>.</b></p>
 
 **Plumb 는 하나의 MCP 서버로 제공되는 AI 네이티브 디자인 엔지니어링 플랫폼입니다.** Figma 파일이든 실제 운영 중인 웹사이트든, 가리키기만 하면 둘 다 동일한 **시맨틱 디자인 그래프(semantic design graph)** — 중복 제거된 토큰, flexbox 로 해석된 레이아웃, 보수적으로 부여된 역할 라벨(`nav` / `hero` / `card` …) — 로 정규화됩니다. 코딩 에이전트는 이 그래프를 바탕으로 빌드하고, 검증 루프는 이를 채점합니다. 대신 한 줄짜리 프롬프트를 가리키면 Plumb 는 **AI 디자인 디렉터** 가 됩니다: 업계 최고 수준의 레퍼런스를 리서치하고, 브랜드를 추출한 뒤, 캔버스 위에 완성된 온브랜드 Figma 파일을 생성하고, 기준을 통과할 때까지 자신의 렌더를 스스로 비평합니다.
 
 > **디자인 → 코드** (Figma 또는 실제 웹, 감이 아니라 검증) &nbsp;•&nbsp; **프롬프트 → 디자인** (리서치 → 브랜드 → 생성 → 비평) &nbsp;•&nbsp; **그 아래에는 하나의 시맨틱 디자인 그래프.** MCP 네이티브 — Claude Code, Cursor, Windsurf 등 Model Context Protocol 을 지원하는 모든 에이전트에서 동작합니다.
 
-📖 전체 문서: **<https://tathagat22.github.io/plumb-mcp/>** &nbsp;·&nbsp; 📦 npm: [`plumb-mcp`](https://www.npmjs.com/package/plumb-mcp) &nbsp;·&nbsp; 🇬🇧 [English README](../README.md) &nbsp;·&nbsp; 🇨🇳 [简体中文](./README.zh-cn.md) &nbsp;·&nbsp; 🇯🇵 [日本語](./README.ja.md)
+📖 전체 문서: **<https://tathagatmaitray.github.io/plumb-mcp/>** &nbsp;·&nbsp; 📦 npm: [`plumb-mcp`](https://www.npmjs.com/package/plumb-mcp) &nbsp;·&nbsp; 🇬🇧 [English README](../README.md) &nbsp;·&nbsp; 🇨🇳 [简体中文](./README.zh-cn.md) &nbsp;·&nbsp; 🇯🇵 [日本語](./README.ja.md)
 
 > 이 번역은 AI의 도움으로 생성되었습니다. 원어민의 검토를 환영하며, PR로 개선해 주시면 감사하겠습니다.
 
@@ -128,7 +128,7 @@ echo "$(npm root -g)/plumb-mcp/figma-plugin/manifest.json"
  run plumb_review as the director until the score clears 90."
 ```
 
-다른 설치 방법: `npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagat22/plumb-mcp:latest` · [소스에서 빌드](https://github.com/tathagat22/plumb-mcp).
+다른 설치 방법: `npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagatmaitray/plumb-mcp:latest` · [소스에서 빌드](https://github.com/tathagatmaitray/plumb-mcp).
 
 ---
 
@@ -252,10 +252,10 @@ plumb-mcp fit <figma-url>                           # HTML 빌드를 생성하�
 
 ## 기여
 
-기여를 환영합니다 — 오타 수정부터 새로운 verify 검사, 디자인 디렉터 개선까지. [`CONTRIBUTING.md`](./CONTRIBUTING.md) 를 참고하세요. 처음이신가요? [`good first issue`](https://github.com/tathagat22/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 라벨을 둘러보세요.
+기여를 환영합니다 — 오타 수정부터 새로운 verify 검사, 디자인 디렉터 개선까지. [`CONTRIBUTING.md`](./CONTRIBUTING.md) 를 참고하세요. 처음이신가요? [`good first issue`](https://github.com/tathagatmaitray/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 라벨을 둘러보세요.
 
 ---
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tathagat22-plumb-mcp-badge.png)](https://mseep.ai/app/tathagat22-plumb-mcp)
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tathagatmaitray-plumb-mcp-badge.png)](https://mseep.ai/app/tathagatmaitray-plumb-mcp)
 [![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/a9f8a315-d08c-48df-a817-c65ed22c2730)
 
 ## 라이선스

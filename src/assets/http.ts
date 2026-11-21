@@ -8,7 +8,7 @@
  */
 
 export const DEFAULT_TIMEOUT_MS = 8000;
-export const USER_AGENT = "plumb-mcp-asset-engine/1.0 (+https://github.com/tathagat22/plumb-mcp)";
+export const USER_AGENT = "plumb-mcp-asset-engine/1.0 (+https://github.com/tathagatmaitray/plumb-mcp)";
 
 /** Per-call context every provider threads through search()/fetch(). */
 export interface HttpCtx {

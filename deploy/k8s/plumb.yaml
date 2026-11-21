@@ -150,7 +150,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: plumb
-          image: ghcr.io/tathagat22/plumb-mcp:0.13.2
+          image: ghcr.io/tathagatmaitray/plumb-mcp:0.13.2
           imagePullPolicy: IfNotPresent
           securityContext:
             allowPrivilegeEscalation: false

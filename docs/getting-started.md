@@ -30,10 +30,10 @@ npm install -g plumb-mcp
 npx plumb-mcp
 
 # Docker — multi-arch image (amd64 + arm64), runs on stdio
-docker run --rm -i ghcr.io/tathagat22/plumb-mcp:latest
+docker run --rm -i ghcr.io/tathagatmaitray/plumb-mcp:latest
 
 # Source — for contributors
-git clone https://github.com/tathagat22/plumb-mcp.git
+git clone https://github.com/tathagatmaitray/plumb-mcp.git
 cd plumb-mcp && npm install && npm run build
 ```
 

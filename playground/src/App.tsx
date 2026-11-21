@@ -250,7 +250,7 @@ export default function App() {
       )}
 
       <footer>
-        <a href="/plumb-mcp/">Plumb docs</a> · <a href="https://github.com/tathagat22/plumb-mcp">GitHub</a> · runs entirely in your browser; keys never leave it
+        <a href="/plumb-mcp/">Plumb docs</a> · <a href="https://github.com/tathagatmaitray/plumb-mcp">GitHub</a> · runs entirely in your browser; keys never leave it
       </footer>
     </div>
   );

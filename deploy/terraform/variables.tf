@@ -34,7 +34,7 @@ variable "chart_version" {
 variable "image_repository" {
   description = "Container image repository."
   type        = string
-  default     = "ghcr.io/tathagat22/plumb-mcp"
+  default     = "ghcr.io/tathagatmaitray/plumb-mcp"
 }
 
 variable "image_tag" {

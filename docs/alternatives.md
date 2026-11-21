@@ -39,7 +39,7 @@ The Figma → code MCP space has three other servers worth knowing:
 - **Framelink (`figma-developer-mcp`)** is a thin REST wrapper. Two tools. Inherits Figma's REST rate limits. Can't reach Variables on non-Enterprise plans.
 - **cursor-talk-to-figma** is bidirectional automation aimed at designers working *in* Figma — a different problem from "ship code that matches the design."
 
-Plumb is the only one focused on **shipping code that matches the design** — token-frugal PDS in, verification loop out, no metering, no rate limits, on every plan. See the [README on GitHub](https://github.com/tathagat22/plumb-mcp#how-plumb-is-different) for the full positioning.
+Plumb is the only one focused on **shipping code that matches the design** — token-frugal PDS in, verification loop out, no metering, no rate limits, on every plan. See the [README on GitHub](https://github.com/tathagatmaitray/plumb-mcp#how-plumb-is-different) for the full positioning.
 
 Outside the MCP world, the broader design-to-code / AI-UI-generator category — **Locofy**, **Anima**, **html.to.design**, or prompt-first generators like **v0** and **Builder.io's Visual Copilot** — typically move in one direction only (design in, code out, or prompt in, code out), with no shared model spanning both and no built-in step that checks the output against the source afterward. Plumb is a **design engineering platform**: one semantic design graph that Figma *and* the live web both normalise into, and that generates code, generates Figma files, and verifies both — not a single-purpose converter.
 
@@ -56,8 +56,8 @@ So if you searched for **"prompt to design," "text to Figma," "AI design generat
 
 ## Multi-agent sessions
 
-As of [v0.7.0](https://github.com/tathagat22/plumb-mcp/releases/tag/v0.7.0), one Figma plugin can pair with **multiple `plumb-mcp` servers at once**, so two Claude / Cursor sessions on different projects can share the same Figma file with zero contention. Each session gets a labelled row in the plugin UI.
+As of [v0.7.0](https://github.com/tathagatmaitray/plumb-mcp/releases/tag/v0.7.0), one Figma plugin can pair with **multiple `plumb-mcp` servers at once**, so two Claude / Cursor sessions on different projects can share the same Figma file with zero contention. Each session gets a labelled row in the plugin UI.
 
 ## Free, local, MIT-licensed
 
-Plumb is open source under [MIT](https://github.com/tathagat22/plumb-mcp/blob/main/LICENSE). Server and plugin talk over the loopback interface — nothing leaves your machine. No analytics, no telemetry, no third-party endpoints.
+Plumb is open source under [MIT](https://github.com/tathagatmaitray/plumb-mcp/blob/main/LICENSE). Server and plugin talk over the loopback interface — nothing leaves your machine. No analytics, no telemetry, no third-party endpoints.

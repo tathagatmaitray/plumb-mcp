@@ -7,7 +7,7 @@
 # Plumb (`plumb-mcp`) —— AI 原生设计工程平台
 
 <p align="center">
-  <a href="https://github.com/tathagat22/plumb-mcp"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tathagat22/plumb-mcp?style=social"></a>
+  <a href="https://github.com/tathagatmaitray/plumb-mcp"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tathagatmaitray/plumb-mcp?style=social"></a>
   &nbsp;
   <a href="https://www.npmjs.com/package/plumb-mcp"><img alt="npm version" src="https://img.shields.io/npm/v/plumb-mcp?color=cb3837&logo=npm&logoColor=white"></a>
   &nbsp;
@@ -16,13 +16,13 @@
   <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-<p align="center"><b>⭐ 如果 Plumb 帮你省下了 token —— 或者为你设计了一个页面 —— 请<a href="https://github.com/tathagat22/plumb-mcp">在 GitHub 上给它点个 star</a>，好让更多人发现它。</b></p>
+<p align="center"><b>⭐ 如果 Plumb 帮你省下了 token —— 或者为你设计了一个页面 —— 请<a href="https://github.com/tathagatmaitray/plumb-mcp">在 GitHub 上给它点个 star</a>，好让更多人发现它。</b></p>
 
 **Plumb 是一台 AI 原生设计工程平台（AI-native design engineering platform），以单个 MCP 服务器的形式交付。** 把它对准一个 Figma 文件，*或者*一个实时网站，它都会将其归一化为同一份**语义设计图（semantic design graph）**——去重的设计 token、已解析为 flexbox 的布局、保守判定的角色标签（`nav` / `hero` / `card` ……）——你的编码代理可以据此构建，验证循环也可以据此打分。把它对准一句话的 prompt，它就化身为一位 **AI 设计总监**：研究业界一流的参考网站、提取品牌，在你的画布上生成一个完整、贴合品牌的 Figma 文件，然后批判自己的渲染结果，直到达标为止。
 
 > **Design → code**（Figma 或实时网页，经过验证而非凭感觉）&nbsp;•&nbsp; **prompt → design**（研究 → 品牌 → 生成 → 批判）&nbsp;•&nbsp; **两者底层共用同一份语义设计图。** 原生支持 MCP —— 可与 Claude Code、Cursor、Windsurf，或任何支持 Model Context Protocol 的代理协同工作。
 
-📖 完整文档：**<https://tathagat22.github.io/plumb-mcp/>** &nbsp;·&nbsp; 📦 npm：[`plumb-mcp`](https://www.npmjs.com/package/plumb-mcp) &nbsp;·&nbsp; 🇬🇧 [English](../README.md) &nbsp;·&nbsp; 🇯🇵 [日本語](./README.ja.md) &nbsp;·&nbsp; 🇰🇷 [한국어](./README.ko.md)
+📖 完整文档：**<https://tathagatmaitray.github.io/plumb-mcp/>** &nbsp;·&nbsp; 📦 npm：[`plumb-mcp`](https://www.npmjs.com/package/plumb-mcp) &nbsp;·&nbsp; 🇬🇧 [English](../README.md) &nbsp;·&nbsp; 🇯🇵 [日本語](./README.ja.md) &nbsp;·&nbsp; 🇰🇷 [한국어](./README.ko.md)
 
 > 本翻译由 AI 辅助生成。欢迎以 PR 形式提交改进意见 —— 我们重视母语者的审校。
 
@@ -130,7 +130,7 @@ echo "$(npm root -g)/plumb-mcp/figma-plugin/manifest.json"
  以设计总监身份运行 plumb_review，直到分数越过 90。"
 ```
 
-其他安装方式：`npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagat22/plumb-mcp:latest` · [从源码构建](https://github.com/tathagat22/plumb-mcp)。
+其他安装方式：`npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagatmaitray/plumb-mcp:latest` · [从源码构建](https://github.com/tathagatmaitray/plumb-mcp)。
 
 ---
 
@@ -254,10 +254,10 @@ plumb-mcp fit <figma-url>                           # 生成并自我修正一�
 
 ## 参与贡献
 
-欢迎贡献 —— 从修正错别字到新增 verify 校验，再到升级设计总监。参见 [`CONTRIBUTING.md`](./CONTRIBUTING.md)。第一次来？浏览 [`good first issue`](https://github.com/tathagat22/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 标签。
+欢迎贡献 —— 从修正错别字到新增 verify 校验，再到升级设计总监。参见 [`CONTRIBUTING.md`](./CONTRIBUTING.md)。第一次来？浏览 [`good first issue`](https://github.com/tathagatmaitray/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 标签。
 
 ---
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tathagat22-plumb-mcp-badge.png)](https://mseep.ai/app/tathagat22-plumb-mcp)
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tathagatmaitray-plumb-mcp-badge.png)](https://mseep.ai/app/tathagatmaitray-plumb-mcp)
 [![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/a9f8a315-d08c-48df-a817-c65ed22c2730)
 
 ## 许可证

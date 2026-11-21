@@ -7,7 +7,7 @@
 # Plumb (`plumb-mcp`) — the AI-native design engineering platform
 
 <p align="center">
-  <a href="https://github.com/tathagat22/plumb-mcp"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tathagat22/plumb-mcp?style=social"></a>
+  <a href="https://github.com/tathagatmaitray/plumb-mcp"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tathagatmaitray/plumb-mcp?style=social"></a>
   &nbsp;
   <a href="https://www.npmjs.com/package/plumb-mcp"><img alt="npm version" src="https://img.shields.io/npm/v/plumb-mcp?color=cb3837&logo=npm&logoColor=white"></a>
   &nbsp;
@@ -16,13 +16,13 @@
   <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-<p align="center"><b>⭐ If Plumb saves you tokens — or designs you a page — <a href="https://github.com/tathagat22/plumb-mcp">star it on GitHub</a> so others can find it.</b></p>
+<p align="center"><b>⭐ If Plumb saves you tokens — or designs you a page — <a href="https://github.com/tathagatmaitray/plumb-mcp">star it on GitHub</a> so others can find it.</b></p>
 
 **Plumb is an AI-native design engineering platform, shipped as a single MCP server.** Point it at a Figma file *or* a live website and it normalises either one into the same **semantic design graph** — deduped tokens, flexbox-resolved layout, conservative role labels (`nav` / `hero` / `card` …) — that your coding agent can build from and a verification loop can grade. Point it at a one-line prompt instead and it becomes an **AI design director**: it researches best-in-class references, extracts a brand, and generates a full, on-brand Figma file on your canvas, then critiques its own render until it clears the bar.
 
 > **Design → code** (Figma or the live web, verified, not vibes) &nbsp;•&nbsp; **prompt → design** (research → brand → generate → critique) &nbsp;•&nbsp; **one semantic design graph underneath both.** MCP-native — works with Claude Code, Cursor, Windsurf, or any agent that speaks Model Context Protocol.
 
-📖 Full docs: **<https://tathagat22.github.io/plumb-mcp/>** &nbsp;·&nbsp; 📦 npm: [`plumb-mcp`](https://www.npmjs.com/package/plumb-mcp) &nbsp;·&nbsp; 🇨🇳 [简体中文](./i18n/README.zh-cn.md) &nbsp;·&nbsp; 🇯🇵 [日本語](./i18n/README.ja.md) &nbsp;·&nbsp; 🇰🇷 [한국어](./i18n/README.ko.md)
+📖 Full docs: **<https://tathagatmaitray.github.io/plumb-mcp/>** &nbsp;·&nbsp; 📦 npm: [`plumb-mcp`](https://www.npmjs.com/package/plumb-mcp) &nbsp;·&nbsp; 🇨🇳 [简体中文](./i18n/README.zh-cn.md) &nbsp;·&nbsp; 🇯🇵 [日本語](./i18n/README.ja.md) &nbsp;·&nbsp; 🇰🇷 [한국어](./i18n/README.ko.md)
 
 <p align="center">
   <a href="cursor://anysphere.cursor-deeplink/mcp/install?name=plumb&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInBsdW1iLW1jcCJdfQ=="><img src="https://cursor.com/deeplink/mcp-install-dark.svg" alt="Add to Cursor" height="32"></a>
@@ -135,7 +135,7 @@ No Figma token, no plugin, no browser, no network — `docker compose up demo` e
 Paste this into Claude Code, Cursor, Windsurf, or any coding agent with a shell, from inside the project you want to use Plumb in. The agent does the installing and config work. It stops and walks you through the two steps only you can do: restarting your editor and clicking **Pair** in Figma.
 
 ```txt
-Set up Plumb (https://github.com/tathagat22/plumb-mcp), the Figma MCP server, for
+Set up Plumb (https://github.com/tathagatmaitray/plumb-mcp), the Figma MCP server, for
 this project. Follow these steps in order and tell me what you did at each one.
 
 1. Check prerequisites: Node 20+ (`node -v`) and npm. If Node is older than 20,
@@ -198,7 +198,7 @@ echo "$(npm root -g)/plumb-mcp/figma-plugin/manifest.json"
  run plumb_review as the director until the score clears 90."
 ```
 
-Other install paths: `npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagat22/plumb-mcp:latest`.
+Other install paths: `npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagatmaitray/plumb-mcp:latest`.
 
 <details>
 <summary><b>Build from source</b></summary>
@@ -206,7 +206,7 @@ Other install paths: `npx plumb-mcp` · `docker run --rm -i ghcr.io/tathagat22/p
 Requires Node 20+. Nothing below needs a credential or a Figma account:
 
 ```bash
-git clone https://github.com/tathagat22/plumb-mcp
+git clone https://github.com/tathagatmaitray/plumb-mcp
 cd plumb-mcp
 npm ci
 npm run demo        # the offline walkthrough — proves the checkout works
@@ -220,7 +220,7 @@ node dist/index.js --help
 `npm run build` produces `dist/index.js` (the MCP server), `dist/studio/` (the
 live cockpit the bridge serves), and `figma-plugin/code.js` (the plugin main
 thread you sideload). If any step fails on a clean checkout, that's a bug —
-[open an issue](https://github.com/tathagat22/plumb-mcp/issues).
+[open an issue](https://github.com/tathagatmaitray/plumb-mcp/issues).
 
 </details>
 
@@ -409,10 +409,10 @@ Nothing above fires on its own — every network call is a direct consequence of
 
 ## Contributing
 
-Contributions welcome — from typo fixes to new verify checks to design-director upgrades. See [`CONTRIBUTING.md`](./CONTRIBUTING.md). New here? Browse the [`good first issue`](https://github.com/tathagat22/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label.
+Contributions welcome — from typo fixes to new verify checks to design-director upgrades. See [`CONTRIBUTING.md`](./CONTRIBUTING.md). New here? Browse the [`good first issue`](https://github.com/tathagatmaitray/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label.
 
 ---
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tathagat22-plumb-mcp-badge.png)](https://mseep.ai/app/tathagat22-plumb-mcp)
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tathagatmaitray-plumb-mcp-badge.png)](https://mseep.ai/app/tathagatmaitray-plumb-mcp)
 [![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/a9f8a315-d08c-48df-a817-c65ed22c2730)
 
 ## License

@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-const SITE_URL = "https://tathagat22.github.io/plumb-mcp/";
+const SITE_URL = "https://tathagatmaitray.github.io/plumb-mcp/";
 const SITE_TITLE =
   "Plumb — the AI-native design engineering platform";
 const SITE_DESCRIPTION =
@@ -81,7 +81,7 @@ export default defineConfig({
       // VitePress's routes, so the client router's soft-navigation 404s on it.
       { text: "Playground", link: "/play/", target: "_self" },
       { text: "Architecture", link: "/architecture" },
-      { text: "GitHub", link: "https://github.com/tathagat22/plumb-mcp" },
+      { text: "GitHub", link: "https://github.com/tathagatmaitray/plumb-mcp" },
       { text: "npm", link: "https://www.npmjs.com/package/plumb-mcp" },
     ],
     sidebar: [
@@ -138,7 +138,7 @@ export default defineConfig({
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/tathagat22/plumb-mcp" },
+      { icon: "github", link: "https://github.com/tathagatmaitray/plumb-mcp" },
     ],
     footer: {
       message: "Released under the MIT License.",

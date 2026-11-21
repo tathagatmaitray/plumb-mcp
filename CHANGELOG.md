@@ -5,7 +5,7 @@ follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions
 correspond to npm/git tags.
 
 For the full commit-level history, see `git log` or the
-[GitHub tags](https://github.com/tathagat22/plumb-mcp/tags) — this file
+[GitHub tags](https://github.com/tathagatmaitray/plumb-mcp/tags) — this file
 starts detailed tracking from the production-hardening pass below and is
 maintained per release going forward. Earlier versions (through v0.13.2)
 are summarized only briefly.
@@ -77,7 +77,7 @@ are summarized only briefly.
   back as bare hex with no `var` name — only variables defined in the open
   file were resolved. Binding ids missing from the local map are now resolved
   with `getVariableByIdAsync` and cached
-  ([#27](https://github.com/tathagat22/plumb-mcp/issues/27)).
+  ([#27](https://github.com/tathagatmaitray/plumb-mcp/issues/27)).
 - `computeLineHeightRatio` treated a unit-less (`"1.5"`) or percentage
   (`"150%"`) line-height as pixels and divided by the font size, reporting a
   9.4× line-height for a 150% one. Both are now classified before conversion.

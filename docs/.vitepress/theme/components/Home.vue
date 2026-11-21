@@ -58,7 +58,7 @@ onMounted(() => {
 const stars = ref(null);
 onMounted(async () => {
   try {
-    const res = await fetch("https://api.github.com/repos/tathagat22/plumb-mcp");
+    const res = await fetch("https://api.github.com/repos/tathagatmaitray/plumb-mcp");
     if (res.ok) stars.value = (await res.json()).stargazers_count;
   } catch {
     // Silent — the link still works without a count.
@@ -103,7 +103,7 @@ onMounted(async () => {
         <a :href="withBase('/play/')" target="_self">Playground</a>
         <a
           class="ph-star"
-          href="https://github.com/tathagat22/plumb-mcp"
+          href="https://github.com/tathagatmaitray/plumb-mcp"
           target="_blank"
           rel="noopener"
           aria-label="Star plumb-mcp on GitHub"
@@ -405,7 +405,7 @@ onMounted(async () => {
         <a class="ph-btn ph-btn-brand" :href="withBase('/getting-started')">Get started →</a>
         <a
           class="ph-btn ph-btn-ghost"
-          href="https://github.com/tathagat22/plumb-mcp"
+          href="https://github.com/tathagatmaitray/plumb-mcp"
           target="_blank"
           rel="noopener"
           >★ Star on GitHub</a

@@ -18,7 +18,7 @@ They are also genuinely wanted, not busywork:
 | **Tighten the egress NetworkPolicy.** `deploy/helm/plumb` allows public 443 because plain `NetworkPolicy` can't express hostnames. | A Cilium or Calico variant restricted to the hosts in the README's egress table, validated by `npm run deploy:scan`. |
 
 Also labelled on the tracker:
-[`good first issue`](https://github.com/tathagat22/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+[`good first issue`](https://github.com/tathagatmaitray/plumb-mcp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ## Prerequisites
 
@@ -123,7 +123,7 @@ A maintainer will review — most PRs get a first response within a few days.
 
 ## Reporting bugs & ideas
 
-Open an [issue](https://github.com/tathagat22/plumb-mcp/issues). For bugs,
+Open an [issue](https://github.com/tathagatmaitray/plumb-mcp/issues). For bugs,
 include what you did, what you expected, and what happened (a minimal repro or
 the offending Figma node helps a lot). Ideas and questions are welcome too.
 

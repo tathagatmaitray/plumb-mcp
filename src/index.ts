@@ -53,8 +53,8 @@ plumb_tokens, plumb_selection, plumb_assets, plumb_screenshot, plumb_describe,
 plumb_search, plumb_components, plumb_verify, plumb_fit, plumb_query,
 plumb_fig_outline, plumb_fig_node.
 
-Docs:    https://tathagat22.github.io/plumb-mcp/
-Source:  https://github.com/tathagat22/plumb-mcp
+Docs:    https://tathagatmaitray.github.io/plumb-mcp/
+Source:  https://github.com/tathagatmaitray/plumb-mcp
 `;
 
 const log = createLogger("plumb-mcp");

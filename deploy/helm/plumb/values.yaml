@@ -11,7 +11,7 @@
 # Image
 # -----------------------------------------------------------------------------
 image:
-  repository: ghcr.io/tathagat22/plumb-mcp
+  repository: ghcr.io/tathagatmaitray/plumb-mcp
   # Defaults to the chart's appVersion. Pin a digest in production.
   tag: ""
   pullPolicy: IfNotPresent
@@ -176,7 +176,7 @@ verify:
   enabled: false
 
   image:
-    repository: ghcr.io/tathagat22/plumb-mcp
+    repository: ghcr.io/tathagatmaitray/plumb-mcp
     # The Chromium-bearing variant, built from the Dockerfile's `verifier`
     # target. The default image cannot render a page.
     tag: ""

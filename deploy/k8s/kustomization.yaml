@@ -13,7 +13,7 @@ resources:
 
 # Example: pin the image by digest for a production rollout.
 # images:
-#   - name: ghcr.io/tathagat22/plumb-mcp
+#   - name: ghcr.io/tathagatmaitray/plumb-mcp
 #     digest: sha256:...
 
 # Example: attach the Figma token you created out-of-band.
